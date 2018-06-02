@@ -25,17 +25,19 @@ This code is based on Caffe and please ensure caffe is installed correctly in yo
 Simple test version
 =======
 
-This is a lite code which you can use as an example to perform super-resolution on your own image and we provide our well-trainded model mentioned in the paper in this part. 
+This is a lite code which you can use as an example to perform super-resolution on your own image and in this part we also provide our well-trainded model mentioned in the paper. 
 
 
 Training
 ========
 
 We provide all the files used for training the edge weighted SR network in this part.
+
 (We will upload it soon)
 
 Testing
 ========
 
 We provide all the testing codes including SR image producing, PSNR and OCR accuracy calculation as well as implement of proposed padding method in this part.
+
 (We will upload it soon)
