@@ -38,6 +38,6 @@ We provide all the files used for training the edge weighted SR network in this 
 Testing
 ========
 
-We provide all the testing codes including SR image producing, PSNR and OCR accuracy calculation as well as implement of proposed padding method in this part.
+We provide all the testing code including SR image producing, PSNR and OCR accuracy calculation as well as implement of proposed padding method in this part.
 
 (We will upload it soon)
