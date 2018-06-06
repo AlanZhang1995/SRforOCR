@@ -6,4 +6,4 @@
 
 you can use code in 'traindata' to generate your own training dataset. Please:
 1. adapt input_image_path 'folder_lr' and 'folder_lr'
-2. adapt hdf5_save_path 'folder_lr' and 'savepath1'
+2. adapt hdf5_save_path 'savepath1'
