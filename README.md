@@ -33,6 +33,8 @@ Training
 
 We provide all the files used for training the edge weighted SR network in this part.
 
+
+
 The 'caffe' fold contains necessary files to train our edge weighted SR network and you need to do following steps to run it
 1. adapt caffe_path in 'train.sh'
 2. adapt hdf5_path in 'VDSR_net.prototxt'
@@ -47,6 +49,8 @@ Testing
 ========
 
 We provide all the testing code including SR image producing, PSNR and OCR accuracy calculation as well as implement of proposed padding method in this part.
+
+
 
 To run these codes, please:
 1. adapt 'path_set' part in 'main.m'
