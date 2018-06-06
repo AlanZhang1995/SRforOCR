@@ -33,11 +33,22 @@ Training
 
 We provide all the files used for training the edge weighted SR network in this part.
 
-(We will upload it soon)
+The 'caffe' fold contains necessary files to train our edge weighted SR network and you need to do following steps to run it
+1. adapt caffe_path in 'train.sh'
+2. adapt hdf5_path in 'VDSR_net.prototxt'
+3. adapt net_path and snapshot_path in 'VDSR_solver.prototxt'
+4. write your train.txt and validation.txt
+
+You can also use code in 'traindata' to generate your own training dataset. Please:
+1. adapt input_image_path 'folder_lr' and 'folder_lr'
+2. adapt hdf5_save_path 'savepath1'
 
 Testing
 ========
 
 We provide all the testing code including SR image producing, PSNR and OCR accuracy calculation as well as implement of proposed padding method in this part.
 
-(We will upload it soon)
+To run these codes, please:
+1. adapt 'path_set' part in 'main.m'
+2. build your tesseract correctly.
+3. use 'my_VDSR_Ver1' to perform SR without padding and 'my_VDSR_Ver2' with proposed paddding method
