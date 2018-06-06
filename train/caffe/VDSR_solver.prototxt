@@ -1,0 +1,25 @@
+# The train/test net protocol buffer definition
+net: "/home/zhc/20VDSR/VDSR_net.prototxt"
+test_iter: 4256
+# Carry out testing every 500 training iterations.
+test_interval: 9000
+# The base learning rate, momentum and the weight decay of the network.
+base_lr: 0.01
+momentum: 0.9
+weight_decay: 0.0001
+# The learning rate policy
+#lr_policy: "fixed"
+lr_policy: "step"
+gamma:0.1
+stepsize:49160
+# Display every 100 iterations
+display: 6000
+clip_gradients:0.01
+# The maximum number of iterations
+max_iter: 196640
+# snapshot intermediate results
+snapshot: 6000
+snapshot_prefix: "/home/zhc/20VDSR/caffemodel/"
+# solver mode: CPU or GPU
+solver_mode: GPU
+
