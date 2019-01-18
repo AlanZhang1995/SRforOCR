@@ -56,3 +56,9 @@ To run these codes, please:
 1. adapt 'path_set' part in 'main.m'
 2. build your tesseract correctly.
 3. choose 'my_VDSR_Ver1' function to perform SR without padding and 'my_VDSR_Ver2' with proposed paddding method
+
+Tools
+========
+An example code to calucate OCR accuracy.
+
+Given annotation and your result image, 'auto_ocr.m' will return the OCR result of the image using 'tesseract' and the accuracy based on LevenshteinDistance.
